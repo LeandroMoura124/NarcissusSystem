@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @*@Styles.Render("~/Content/css")*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/Estilo.css" rel="stylesheet" />
     @Scripts.Render("~/bundles/modernizr")
@@ -16,7 +17,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="logo">
-                    <h1><a href="#"> Clínica de Estética</a></h1>
+                    <h1><a href="#"> Logo Narcissus</a></h1>
                     <p>Nossa Clínica</p>
                 </div>
             </div>
@@ -55,7 +56,26 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <div class="row">
+                <div class="col-md-12 copyright" style="border:none;">
+
+                    <div class="col-md-6 col-sm-6 copyright-left">
+                        <p>&copy; @DateTime.Now.Year - Narcissus Clínica. Todos os direitos reservados.</p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 copyright-right">
+                        <ul class="list-unstyled list-social">
+                            <li><a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            
         </footer>
     </div>
 

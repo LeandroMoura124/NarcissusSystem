@@ -296,3 +296,127 @@ h1, h2, h3, h4, h5, h6 {
 .olSearch{
     position:relative;
 }
+
+
+
+
+
+/*Content*/
+
+.content{
+
+}
+
+.content .page-header{
+    padding-bottom: 5px;
+    margin: 20px 0 30px;
+    border-bottom: 1px solid #ed879d;
+}
+
+.content .page-header h2{
+    font-weight:700;
+}
+
+
+
+.product-item{
+    position:relative;
+    margin-left:-4%;
+}
+
+.product-item .caption h5{
+    font-weight: 600;
+    font-size:16px;
+    line-height: 20px;
+    border-top: 2px solid #ed879d;
+    margin-top: 10px;
+    padding-top:10px;
+}
+
+.product-item .caption .product-item-price{
+    font-size:14px;
+    line-height:16px;
+    font-weight:400;
+}
+
+
+
+.product-item .product-item-badge{
+    position:absolute;
+    top:4px;
+    left:4px; 
+    padding: 5px 12px 6px;
+    color:#fff;
+    font-size:12px;
+    line-height:14px;
+    font-weight:600;
+    background:#ed879d;
+    -webkit-border-radius:4px 0 4px 0; 
+    -moz-border-radius:4px 0 4px 0; 
+    -o-border-radius:4px 0 4px 0; 
+     border-radius:4px 0 4px 0; 
+
+}
+
+
+
+
+/*FOOTER*/
+
+
+.copyright{
+    font-size:14px;
+    line-height:16px;
+    font-weight:400;
+}
+
+.copyright .copyright-left{
+    text-align:left;
+}
+
+    .copyright .copyright-right {
+        text-align: right;
+    }
+.copyright .list-social{
+    float:right;
+    margin-top:-10px;
+    display: flex;
+}
+    .copyright .list-social li {
+     padding: 0px 5px;
+    }
+
+
+
+
+    .copyright .list-social > li > a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        background: #fff;
+        border: 1px solid #000;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -o-border-radius: 100%;
+        border-radius: 100%;
+        font-size: 20px;
+        color: #000;
+    }
+
+    .copyright .list-social > li > a:hover {
+        background:#ed879d;
+        border: 1px solid #33333333;
+        font-size: 20px;
+        color:#005faa;
+    
+    
+    }
+
+        .copyright .list-social > li > a .fa {
+           position:absolute;
+           left:50%;
+           top:50%;
+           margin-left:-8px;
+           margin-top:-9px;
+        }
