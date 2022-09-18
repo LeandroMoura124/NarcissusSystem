@@ -22,14 +22,14 @@ h1, h2, h3, h4, h5, h6 {
 /*LOGO*/
 
 .row {
-    margin-right: -840px;
+    margin-right: -845px;
     margin-top: 5.5px;
     padding: 0px 16px;
 }
 
 .logo {
     margin-bottom: 40px;
-    margin-left: 5px;
+    margin-left: -20px;
 }
 
     .logo h1, .logo h2 {
@@ -73,9 +73,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .col-md-12 {
-    width: 58%;
+    width: 57.7%;
     border-top: 2px solid;
-    padding: 10px 0px 10px 15px;
+    padding: 10px 0px 10px 0px;
 }
 
 
@@ -236,4 +236,63 @@ h1, h2, h3, h4, h5, h6 {
 
 .carousel-control .icon-right, .carousel-control .fa-chevron-right {
     right: 30px;
+}
+
+
+
+
+
+
+/*OLCONTENT*/
+
+
+
+.olContent{
+    width:100%;
+}
+
+    .olContent h2 {
+        color: #fff;
+        font-size: 19px;
+        padding:9px 0 0;
+    }
+.olSearch {
+    width:100%;
+}
+    .olSearch .inputComn {
+        margin-bottom:0;
+    }
+
+.inputComn{
+    color:black;
+    font-size: 14px;
+    height: 44px;
+    width: 100%;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.searchIcon{
+    position:absolute;
+    top:0;
+    right: 0;
+}
+
+.searchBtn{
+    background-color: #005faa;
+    border: 0 none;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 44px;
+}
+
+.searchBtn:hover{
+    background-color: #ed879d;
+}
+
+.olSearch{
+    position:relative;
 }
